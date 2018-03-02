@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# tervitusskrits
+#
+echo -n "Tere, " # v'ljasta ilma reavahetuseta Tere,
+echo -n "User" # v'ljasta ima reavahetuseta User
+echo "!" # valjasta ! ja tee reavahetus
+#
+# sktripti lopp
