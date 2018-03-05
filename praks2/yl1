@@ -1,9 +1,13 @@
 #!/bin/bash
 #
-# tervitusskrits
+# kasutaja tervitus
 #
-echo -n "Tere, " # v'ljasta ilma reavahetuseta Tere,
-echo -n "User" # v'ljasta ima reavahetuseta User
-echo "!" # valjasta ! ja tee reavahetus
+# skripti algus
+#
+#echo -n "Tere User !"
+echo -n "Tere"
+echo -n ` who am i | cut -c1 | tr [:lower:] [:upper:]` # loika esimene taht ja muuda suureks
+echo -n `who am i | cut -c2-` # loika koik tahed alatest 2-st
+echo "!"
 #
 # sktripti lopp
