@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo -n "Siseasta suvaline taisarv:"
+read taisarv
+
+jaak=$(( $taisarv % 2 ))
+
+if [ $jaak -eq 0 ]
+then echo "Antud arv on paaris."
+else echo "Antud arv on paaritu"
+fi
