@@ -1,0 +1,20 @@
+#!/bin/bash
+
+echo -n "Sisesta kuu number:"
+read number
+
+case $number in
+1) echo "Jaanuar";;
+2) echo "Veebruar";;
+3) echo "Marts";;
+4) echo "April";;
+5) echo "Mai";;
+6) echo "Juuni";;
+7) echo "Juuli";;
+8) echo "August";;
+9) echo "September";;
+10) echo "Oktoober";;
+11) echo "November";;
+12) echo "Detsember";;
+*) echo "Vale kuu number";;
+esac
